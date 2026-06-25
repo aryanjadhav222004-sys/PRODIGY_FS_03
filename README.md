@@ -17,7 +17,7 @@ A responsive full-stack e-commerce website for local stores with comprehensive p
 ### Advanced Features
 - 🔄 Wishlist Functionality
 - ⭐ Product Reviews & Ratings
-- 🛍️ Order History
+- 🛒 Order History
 - 📱 Mobile-First UI
 - 🌙 Dark Mode Support
 
@@ -108,7 +108,7 @@ PRODIGY_FS_03/
 │   ├── package.json
 │   └── server.js
 ├── database/
-│   └── ecommerce.sql
+│   └── schema.sql
 └── .gitignore
 ```
 
@@ -167,7 +167,7 @@ npm run dev
 ## Database Setup
 
 ```bash
-mysql -u root -p < database/ecommerce.sql
+mysql -u root -p < database/schema.sql
 ```
 
 ## Environment Variables
